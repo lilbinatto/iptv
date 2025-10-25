@@ -1,0 +1,862 @@
+{
+    "dup_type": "lite",
+    "created": "2024-03-15 23:28:48",
+    "version_dup": "1.5.8.1",
+    "version_wp": "6.4.3",
+    "version_db": "10.11.7",
+    "version_php": "7.4.33",
+    "version_os": "Linux",
+    "blogname": "Iptv PRO MAX",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$D.9zdn0bLC9Et.nxEIyd6uYkx1nsNPPIkVGachCDN2DDzbJC45C.W",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wpca_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "e.megalivre.xyz",
+            "path": "\/piloto\/",
+            "blogname": "Iptv PRO MAX",
+            "blog_prefix": "wpca_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/e.megalivre.xyz\/piloto",
+            "fullSiteUrl": "https:\/\/e.megalivre.xyz\/piloto",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "latin1"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB",
+            "MyISAM"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "u427518033_piloto",
+        "tablesBaseCount": 67,
+        "tablesFinalCount": 67,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 4471,
+        "tablesSizeOnDisk": 21678080,
+        "tablesList": {
+            "wpca_actionscheduler_actions": {
+                "inaccurateRows": 35,
+                "insertedRows": 35,
+                "size": 131072
+            },
+            "wpca_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_actionscheduler_groups": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wpca_actionscheduler_logs": {
+                "inaccurateRows": 103,
+                "insertedRows": 103,
+                "size": 49152
+            },
+            "wpca_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_comments": {
+                "inaccurateRows": 26,
+                "insertedRows": 33,
+                "size": 114688
+            },
+            "wpca_cwmp_cart_abandoned": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wpca_cwmp_cart_abandoned_relation": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wpca_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpca_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_e_submissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 294912
+            },
+            "wpca_e_submissions_actions_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wpca_e_submissions_values": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_glsr_assigned_posts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_glsr_assigned_terms": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_glsr_assigned_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_glsr_ratings": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_options": {
+                "inaccurateRows": 727,
+                "insertedRows": 736,
+                "size": 2326528
+            },
+            "wpca_pgly_pix": {
+                "inaccurateRows": 9,
+                "insertedRows": 11,
+                "size": 49152
+            },
+            "wpca_postmeta": {
+                "inaccurateRows": 2595,
+                "insertedRows": 2543,
+                "size": 12271616
+            },
+            "wpca_posts": {
+                "inaccurateRows": 350,
+                "insertedRows": 359,
+                "size": 3751936
+            },
+            "wpca_referal_program": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpca_referal_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpca_termmeta": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "wpca_terms": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 49152
+            },
+            "wpca_term_relationships": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 32768
+            },
+            "wpca_term_taxonomy": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 49152
+            },
+            "wpca_usermeta": {
+                "inaccurateRows": 61,
+                "insertedRows": 61,
+                "size": 49152
+            },
+            "wpca_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wpca_wcusage_clicks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpca_wc_admin_notes": {
+                "inaccurateRows": 163,
+                "insertedRows": 168,
+                "size": 98304
+            },
+            "wpca_wc_admin_note_actions": {
+                "inaccurateRows": 208,
+                "insertedRows": 208,
+                "size": 81920
+            },
+            "wpca_wc_category_lookup": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wpca_wc_customer_lookup": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 49152
+            },
+            "wpca_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wpca_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpca_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_wc_order_product_lookup": {
+                "inaccurateRows": 8,
+                "insertedRows": 11,
+                "size": 81920
+            },
+            "wpca_wc_order_stats": {
+                "inaccurateRows": 10,
+                "insertedRows": 11,
+                "size": 65536
+            },
+            "wpca_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpca_wc_product_meta_lookup": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 114688
+            },
+            "wpca_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpca_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpca_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpca_woocommerce_ir_sms_archive": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpca_woocommerce_ir_sms_contacts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpca_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_woocommerce_order_itemmeta": {
+                "inaccurateRows": 90,
+                "insertedRows": 99,
+                "size": 49152
+            },
+            "wpca_woocommerce_order_items": {
+                "inaccurateRows": 8,
+                "insertedRows": 11,
+                "size": 32768
+            },
+            "wpca_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpca_woocommerce_sessions": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpca_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpca_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpca_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpca_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpca_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.11.7",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 3,
+        "packageName": "03_15_2024_iptvpromax",
+        "packageHash": "502297b-15232848",
+        "secondaryHash": "74f47e6-15232848"
+    },
+    "fileInfo": {
+        "dirCount": 2557,
+        "fileCount": 12719,
+        "size": 67034926
+    },
+    "wpInfo": {
+        "version": "6.4.3",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+        "targetPaths": [
+            "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "deiihyvptf0swqkqu0y3wnkkmfenlolk2lqbmn9tduiexdjkezvvwhmpk1kzc8tf",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "vkkzdlha9973p9unmdxm0fvk6bcxoap5ttr1zqguiyz9idmwpzdxduxsq8pzib7m",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "z3qo7ecjrybwfe1teu1rhp9dkir18irw3bejb9wejp78sy84acopbfhkbpsftx7f",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "7wfvsxf5gpcyvtgdnfwxt4gdsbz8wg2hyhpjdb3aijvigpkkg9eef4jzkgrlrpo7",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "5t2lb2dtzj02qjoezqcdk7iqetxrac5lmlxrfi4wyq3oxwuoioohceehqvk2sfhw",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "ldbrq0zzgkil0ncylkwwidmv3eghufcbf38tqqo1rtux5wsk1x0gxkp5thsydtuv",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "i9dfncdyzzdj2zqj6ebavu4tkrpdobdwq5vq9wvcgata2kvfpsloftyorfdfzaye",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "xzjnhsdtpwuabpfpwylhq0s6dfglrygbwunwlqlreaobskiassifuwlv8t9iqewp",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/e.megalivre.xyz\/piloto\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "1536M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/piloto\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/piloto\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/piloto\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/piloto\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/themes\/page-builder-framework",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/themes\/page-builder-framework",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/e.megalivre.xyz\/piloto",
+                "homeUrl": "https:\/\/e.megalivre.xyz\/piloto",
+                "loginUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-login.php",
+                "contentUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-content",
+                "uploadBaseUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/e.megalivre.xyz\/piloto\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+                    "abs": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+                    "wpconfig": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+                    "wpcontent": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content",
+                    "uploads": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/uploads",
+                    "plugins": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/plugins",
+                    "muplugins": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+                    "abs": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+                    "wpconfig": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto",
+                    "wpcontent": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content",
+                    "uploads": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/uploads",
+                    "plugins": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/plugins",
+                    "muplugins": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u427518033\/domains\/megalivre.xyz\/public_html\/e\/piloto\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "woo-checkout-field-editor-pro\/checkout-form-designer.php": {
+                "slug": "woo-checkout-field-editor-pro\/checkout-form-designer.php",
+                "name": "Checkout Field Editor for WooCommerce",
+                "version": "2.0.1",
+                "pluginURI": "https:\/\/www.themehigh.com",
+                "author": "ThemeHigh",
+                "authorURI": "https:\/\/www.themehigh.com",
+                "description": "Customize WooCommerce checkout fields(Add, Edit, Delete and re-arrange fields).",
+                "title": "Checkout Field Editor for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.8.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.20.1",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor-pro\/elementor-pro.php": {
+                "slug": "elementor-pro\/elementor-pro.php",
+                "name": "Elementor Pro",
+                "version": "3.17.1",
+                "pluginURI": "https:\/\/go.elementor.com\/wp-dash-wp-plugins-author-uri\/",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/go.elementor.com\/wp-dash-wp-plugins-author-uri\/",
+                "description": "Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",
+                "title": "Elementor Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "creame-whatsapp-me\/joinchat.php": {
+                "slug": "creame-whatsapp-me\/joinchat.php",
+                "name": "Joinchat",
+                "version": "5.0.17",
+                "pluginURI": "https:\/\/join.chat",
+                "author": "Creame",
+                "authorURI": "https:\/\/crea.me",
+                "description": "Connects a WordPress chat with WhatsApp. The best solution for marketing and support. Stop losing customers and increase your sales.",
+                "title": "Joinchat",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-multi-step-checkout\/wp-multi-step-checkout.php": {
+                "slug": "wp-multi-step-checkout\/wp-multi-step-checkout.php",
+                "name": "Multi-Step Checkout for WooCommerce",
+                "version": "2.27",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wp-multi-step-checkout\/",
+                "author": "SilkyPress",
+                "authorURI": "https:\/\/www.silkypress.com",
+                "description": "Nice multi-step checkout for your WooCommerce store",
+                "title": "Multi-Step Checkout for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pix-por-piggly\/wc-piggly-pix.php": {
+                "slug": "pix-por-piggly\/wc-piggly-pix.php",
+                "name": "Pix por Piggly (para Woocommerce)",
+                "version": "2.0.29",
+                "pluginURI": "https:\/\/studio.piggly.com.br\/",
+                "author": "Piggly Lab",
+                "authorURI": "https:\/\/studio.piggly.com.br\/",
+                "description": "O melhor plugin para pagamentos via Pix no Woocommerce. Aplique desconto autom\u00e1tico, personalize o comportamento e muito mais.",
+                "title": "Pix por Piggly (para Woocommerce)",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.0.3",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "page-builder-framework": {
+                "slug": "page-builder-framework",
+                "themeName": "Page Builder Framework",
+                "version": "2.10.3",
+                "themeURI": "https:\/\/wp-pagebuilderframework.com",
+                "parentTheme": false,
+                "template": "page-builder-framework",
+                "stylesheet": "page-builder-framework",
+                "description": "Page Builder Framework is a super fast, lightweight (less than 50kb on the frontend) and highly customizible WordPress theme made to work with all page builders such as Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, Thrive Architect, Brizy and more. It can be daunting to look for the perfect theme to pair with the page builder you love. Page Builder Framework is the only theme that has been specifically created for Page Builders. It has been written from ground up with SEO in mind, is 100% Gutenberg compatible and follows the latest web standards (HTML5 and schema.org markup). With its minimalistic approach and lots of customization options in the WordPress customizer, it enables you to build almost any type of website such as a Blog, Portfolio website, Agency website or WooCommerce storefront. Agency owners and Developers love Page Builder Framework for its flexibility and extendability when it comes to building outstanding client websites. If you\u2019re not a coder, don\u2019t worry! With endless options in the WordPress customizer it\u2019s the perfect fit for users at any skill level. Are you using a Page Builder and still looking for the perfect theme? Look no further.",
+                "author": "David Vongries",
+                "authorURI": "https:\/\/mapsteps.com",
+                "tags": [
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "right-sidebar",
+                    "custom-colors",
+                    "custom-menu",
+                    "featured-images",
+                    "full-width-template",
+                    "custom-logo",
+                    "custom-background",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog",
+                    "news",
+                    "e-commerce",
+                    "theme-options",
+                    "block-styles",
+                    "wide-blocks"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Iptv PRO MAX"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "03_15_2024_iptvpromax_502297be8d2456d33246_20240315232848_installer-backup.php",
+    "package_name": "03_15_2024_iptvpromax_502297be8d2456d33246_20240315232848_archive.zip",
+    "package_hash": "502297b-15232848",
+    "package_notes": ""
+}
